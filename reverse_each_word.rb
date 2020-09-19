@@ -5,7 +5,9 @@ def reverse_each_word (string)
     char_array.push(word.split("").join.reverse)
   end
   char_array.collect{|word|
-   p word
+    for i in word.split("") do
+      p i
+    end
   }
 end
 
