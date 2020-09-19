@@ -7,7 +7,7 @@ def reverse_each_word (string)
   char_array = char_array.collect{|word|
     word = word + " "
   }
-  p char_array
+  p char_array.join()
 end
 
 reverse_each_word("Hello World!")
