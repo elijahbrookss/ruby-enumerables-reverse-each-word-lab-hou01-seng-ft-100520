@@ -4,7 +4,7 @@ def reverse_each_word (string)
   for word in word_array do
     char_array.push(word.split("").join.reverse)
   end
-  char_array.collect{|word|
+  char_array = char_array.collect{|word|
     word = word + "i"
   }
   p char_array
