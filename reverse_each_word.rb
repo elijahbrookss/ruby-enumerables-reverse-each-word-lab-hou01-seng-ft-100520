@@ -11,7 +11,7 @@ def reverse_each_word (string)
       new_string_array.push(" ")
     end
   }
-  new_string_array
+ p new_string_array
 end
 
 reverse_each_word("Hello World!")
