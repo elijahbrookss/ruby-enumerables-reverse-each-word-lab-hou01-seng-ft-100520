@@ -1,8 +1,11 @@
 def reverse_each_word (string)
   word_array = string.split();
-  new_string_array = [];
-  word_array.collect{
-
+  char_array = []
+  for word in word_array do
+    char_array = word.split("").join.reverse
+  end
+  p char_array
+  word_array.collect{|word|
   }
 end
 
